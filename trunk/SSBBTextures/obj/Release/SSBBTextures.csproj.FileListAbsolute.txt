@@ -1,0 +1,27 @@
+G:\Documentos\Visual Studio 2008\Projects\SSBBTextures - New\SSBBTextures\obj\Release\ResolveAssemblyReference.cache
+G:\Documentos\Visual Studio 2008\Projects\SSBBTextures - New\SSBBTextures\obj\Release\SSBBTextures.OutfitNames.resources
+G:\Documentos\Visual Studio 2008\Projects\SSBBTextures - New\SSBBTextures\obj\Release\SSBBTextures.CharImages.resources
+G:\Documentos\Visual Studio 2008\Projects\SSBBTextures - New\SSBBTextures\obj\Release\SSBBTextures.Main.resources
+G:\Documentos\Visual Studio 2008\Projects\SSBBTextures - New\SSBBTextures\obj\Release\SSBBTextures.CharNames.resources
+G:\Documentos\Visual Studio 2008\Projects\SSBBTextures - New\SSBBTextures\obj\Release\SSBBTextures.Properties.Resources.resources
+G:\Documentos\Visual Studio 2008\Projects\SSBBTextures - New\SSBBTextures\obj\Release\SSBBTextures.TextureEdit.resources
+G:\Documentos\Visual Studio 2008\Projects\SSBBTextures - New\SSBBTextures\obj\Release\SSBBTextures.csproj.GenerateResource.Cache
+G:\Documentos\Visual Studio 2008\Projects\SSBBTextures - New\SSBBTextures\obj\Release\SSBBTextures.Main.en.resources
+G:\Documentos\Visual Studio 2008\Projects\SSBBTextures - New\SSBBTextures\obj\Release\SSBBTextures.CharNames.en.resources
+G:\Documentos\Visual Studio 2008\Projects\SSBBTextures - New\SSBBTextures\obj\Release\SSBBTextures.OutfitNames.en.resources
+G:\Documentos\Visual Studio 2008\Projects\SSBBTextures - New\SSBBTextures\obj\Release\SSBBTextures.Properties.Resources.en.resources
+G:\Documentos\Visual Studio 2008\Projects\SSBBTextures - New\SSBBTextures\obj\Release\SSBBTextures.TextureEdit.en.resources
+G:\Documentos\Visual Studio 2008\Projects\SSBBTextures - New\SSBBTextures\bin\Release\lz77ex.exe
+G:\Documentos\Visual Studio 2008\Projects\SSBBTextures - New\SSBBTextures\bin\Release\Brawl Texturizer.exe.config
+G:\Documentos\Visual Studio 2008\Projects\SSBBTextures - New\SSBBTextures\bin\Release\Brawl Texturizer.exe
+G:\Documentos\Visual Studio 2008\Projects\SSBBTextures - New\SSBBTextures\bin\Release\Brawl Texturizer.pdb
+G:\Documentos\Visual Studio 2008\Projects\SSBBTextures - New\SSBBTextures\bin\Release\en\Brawl Texturizer.resources.dll
+G:\Documentos\Visual Studio 2008\Projects\SSBBTextures - New\SSBBTextures\obj\Release\SSBBTextures.AboutBox.resources
+G:\Documentos\Visual Studio 2008\Projects\SSBBTextures - New\SSBBTextures\obj\Release\en\Brawl Texturizer.resources.dll
+G:\Documentos\Visual Studio 2008\Projects\SSBBTextures - New\SSBBTextures\obj\Release\Brawl Texturizer.exe
+G:\Documentos\Visual Studio 2008\Projects\SSBBTextures - New\SSBBTextures\obj\Release\Brawl Texturizer.pdb
+G:\Documentos\Visual Studio 2008\Projects\SSBBTextures - New\SSBBTextures\bin\Release\FreeImage.dll
+G:\Documentos\Visual Studio 2008\Projects\SSBBTextures - New\SSBBTextures\bin\Release\FreeImageNET.dll
+G:\Proyectos Visual Studio\Carpeta de trabajo de VS\Projects\Brawl Texturizer\SSBBTextures\bin\Release\Brawl Texturizer.exe.config
+G:\Proyectos Visual Studio\Carpeta de trabajo de VS\Projects\Brawl Texturizer\SSBBTextures\obj\Release\Brawl Texturizer.exe
+G:\Proyectos Visual Studio\Carpeta de trabajo de VS\Projects\Brawl Texturizer\SSBBTextures\obj\Release\Brawl Texturizer.pdb

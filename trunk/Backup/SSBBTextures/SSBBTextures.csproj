@@ -1,0 +1,385 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{79B57AFC-1F06-4D0B-916F-AEB46CC1B2DB}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SSBBTextures</RootNamespace>
+    <AssemblyName>Brawl Texturizer</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ApplicationIcon>SSBB Textures.ico</ApplicationIcon>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="FreeImageNET, Version=3.11.0.9, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\FreeImageNET.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutBox.Designer.cs">
+      <DependentUpon>AboutBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Character.cs" />
+    <Compile Include="CharNames.en.Designer.cs">
+      <DependentUpon>CharNames.en.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="MassiveDataManager.cs" />
+    <Compile Include="OutfitNames.en.Designer.cs">
+      <DependentUpon>OutfitNames.en.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="OutfitNames.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>OutfitNames.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.en.Designer.cs">
+      <DependentUpon>Resources.en.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Skinning.cs" />
+    <Compile Include="TextureInfo.cs" />
+    <Compile Include="CharImages.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CharImages.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Outfit.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="CharNames.en.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>CharNames.en.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OutfitNames.en.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>OutfitNames.en.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main.en.resx">
+      <DependentUpon>Main.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OutfitNames.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>OutfitNames.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CharImages.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>CharImages.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CharNames.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>CharNames.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.en.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.en.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TextureEdit.en.resx">
+      <DependentUpon>TextureEdit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TextureEdit.resx">
+      <DependentUpon>TextureEdit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="CharNames.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>CharNames.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <DependentUpon>Resources.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Texture.cs" />
+    <Compile Include="TextureEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TextureEdit.Designer.cs">
+      <DependentUpon>TextureEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Util.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captain.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dedede.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Resources\Outfit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Diddy.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Donkey.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Falco.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fox.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GameWatch.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ganon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Zelda.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GKoopa.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ike.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kirby.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Koopa.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Link.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lucario.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lucas.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Luigi.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mario.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MetaKnight.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nana.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ness.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Peach.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pikachu.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pikmin.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pit.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PokeFushigisou.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PokeLizardon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PokeZenigame.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Popo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Purin.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Samus.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sheik.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Snake.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sonic.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SZeroSuit.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ToonLink.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wario.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WarioMan.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wolf.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Yoshi.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Robot.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Agt Stop icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PokeTrainer.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Charizard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ivysaur.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Squirtle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="FreeImage.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="lz77ex.exe">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Marth.jpg" />
+    <None Include="Resources\PanelJMNAzul.png" />
+    <Content Include="SSBB Textures.ico" />
+    <EmbeddedResource Include="AboutBox.resx">
+      <DependentUpon>AboutBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SSBBT.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\Visual Studio 10\Projects\SmashTools\source\BrawlLib\BrawlLib.csproj">
+      <Project>{462D0BBF-CE82-405B-8848-2F91E9E14C55}</Project>
+      <Name>BrawlLib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

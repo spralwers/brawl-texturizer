@@ -1,0 +1,55 @@
+G:\Proyectos Visual Studio\Carpeta de trabajo de VS\Projects\Brawl Texturizer\SSBBTextures\bin\x86\Release\Brawl Texturizer.exe.config
+G:\Proyectos Visual Studio\Carpeta de trabajo de VS\Projects\Brawl Texturizer\SSBBTextures\obj\x86\Release\ResolveAssemblyReference.cache
+G:\Proyectos Visual Studio\Carpeta de trabajo de VS\Projects\Brawl Texturizer\SSBBTextures\obj\x86\Release\Brawl Texturizer.csproj.GenerateResource.Cache
+G:\Proyectos Visual Studio\Carpeta de trabajo de VS\Projects\Brawl Texturizer\SSBBTextures\bin\x86\Release\Brawl Texturizer.exe
+G:\Proyectos Visual Studio\Carpeta de trabajo de VS\Projects\Brawl Texturizer\SSBBTextures\bin\x86\Release\Brawl Texturizer.pdb
+G:\Proyectos Visual Studio\Carpeta de trabajo de VS\Projects\Brawl Texturizer\SSBBTextures\bin\x86\Release\en\Brawl Texturizer.resources.dll
+G:\Proyectos Visual Studio\Carpeta de trabajo de VS\Projects\Brawl Texturizer\SSBBTextures\bin\x86\Release\BrawlLib.dll
+G:\Proyectos Visual Studio\Carpeta de trabajo de VS\Projects\Brawl Texturizer\SSBBTextures\obj\x86\Release\en\Brawl Texturizer.resources.dll
+G:\Proyectos Visual Studio\Carpeta de trabajo de VS\Projects\Brawl Texturizer\SSBBTextures\obj\x86\Release\Brawl Texturizer.exe
+G:\Proyectos Visual Studio\Carpeta de trabajo de VS\Projects\Brawl Texturizer\SSBBTextures\obj\x86\Release\Brawl Texturizer.pdb
+G:\Proyectos Visual Studio\Carpeta de trabajo de VS\Projects\Brawl Texturizer\SSBBTextures\bin\x86\Release\BrawlLib.txt
+G:\Proyectos Visual Studio\Carpeta de trabajo de VS\Projects\Brawl Texturizer\SSBBTextures\bin\x86\Release\BrawlLib.pdb
+G:\Proyectos Visual Studio\Carpeta de trabajo de VS\Projects\Brawl Texturizer\SSBBTextures\obj\x86\Release\Texturizer.ExportPortraits.resources
+G:\Proyectos Visual Studio\Carpeta de trabajo de VS\Projects\Brawl Texturizer\SSBBTextures\obj\x86\Release\Texturizer.OutfitImages.resources
+G:\Proyectos Visual Studio\Carpeta de trabajo de VS\Projects\Brawl Texturizer\SSBBTextures\obj\x86\Release\Texturizer.OutfitNames.resources
+G:\Proyectos Visual Studio\Carpeta de trabajo de VS\Projects\Brawl Texturizer\SSBBTextures\obj\x86\Release\Texturizer.CharImages.resources
+G:\Proyectos Visual Studio\Carpeta de trabajo de VS\Projects\Brawl Texturizer\SSBBTextures\obj\x86\Release\Texturizer.Main.resources
+G:\Proyectos Visual Studio\Carpeta de trabajo de VS\Projects\Brawl Texturizer\SSBBTextures\obj\x86\Release\Texturizer.CharNames.resources
+G:\Proyectos Visual Studio\Carpeta de trabajo de VS\Projects\Brawl Texturizer\SSBBTextures\obj\x86\Release\Texturizer.Properties.Resources.resources
+G:\Proyectos Visual Studio\Carpeta de trabajo de VS\Projects\Brawl Texturizer\SSBBTextures\obj\x86\Release\Texturizer.TextureEdit.resources
+G:\Proyectos Visual Studio\Carpeta de trabajo de VS\Projects\Brawl Texturizer\SSBBTextures\obj\x86\Release\Texturizer.AboutBox.resources
+G:\Proyectos Visual Studio\Carpeta de trabajo de VS\Projects\Brawl Texturizer\SSBBTextures\obj\x86\Release\Texturizer.SDCardSelector.resources
+G:\Proyectos Visual Studio\Carpeta de trabajo de VS\Projects\Brawl Texturizer\SSBBTextures\obj\x86\Release\Texturizer.CharNames.en.resources
+G:\Proyectos Visual Studio\Carpeta de trabajo de VS\Projects\Brawl Texturizer\SSBBTextures\obj\x86\Release\Texturizer.ExportPortraits.en.resources
+G:\Proyectos Visual Studio\Carpeta de trabajo de VS\Projects\Brawl Texturizer\SSBBTextures\obj\x86\Release\Texturizer.Main.en.resources
+G:\Proyectos Visual Studio\Carpeta de trabajo de VS\Projects\Brawl Texturizer\SSBBTextures\obj\x86\Release\Texturizer.OutfitNames.en.resources
+G:\Proyectos Visual Studio\Carpeta de trabajo de VS\Projects\Brawl Texturizer\SSBBTextures\obj\x86\Release\Texturizer.Properties.Resources.en.resources
+G:\Proyectos Visual Studio\Carpeta de trabajo de VS\Projects\Brawl Texturizer\SSBBTextures\obj\x86\Release\Texturizer.TextureEdit.en.resources
+G:\Proyectos Visual Studio\Carpeta de trabajo de VS\Projects\Brawl Texturizer\SSBBTextures\obj\x86\Release\Texturizer.SDCardSelector.en.resources
+C:\Users\José Manuel\Desktop\Proyectos en Google Code\Brawl Texturizer\SSBBTextures\bin\x86\Release\Brawl Texturizer.exe.config
+C:\Users\José Manuel\Desktop\Proyectos en Google Code\Brawl Texturizer\SSBBTextures\obj\x86\Release\Brawl Texturizer.exe
+C:\Users\José Manuel\Desktop\Proyectos en Google Code\Brawl Texturizer\SSBBTextures\obj\x86\Release\Brawl Texturizer.pdb
+C:\Users\José Manuel\Desktop\Proyectos en Google Code\Brawl Texturizer\SSBBTextures\bin\x86\Release\Brawl Texturizer.exe
+C:\Users\José Manuel\Desktop\Proyectos en Google Code\Brawl Texturizer\SSBBTextures\bin\x86\Release\Brawl Texturizer.pdb
+C:\Users\José Manuel\Desktop\Proyectos en Google Code\Brawl Texturizer\SSBBTextures\bin\x86\Release\en\Brawl Texturizer.resources.dll
+C:\Users\José Manuel\Desktop\Proyectos en Google Code\Brawl Texturizer\SSBBTextures\bin\x86\Release\BrawlLib.dll
+C:\Users\José Manuel\Desktop\Proyectos en Google Code\Brawl Texturizer\SSBBTextures\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\José Manuel\Desktop\Proyectos en Google Code\Brawl Texturizer\SSBBTextures\obj\x86\Release\Texturizer.ExportPortraits.resources
+C:\Users\José Manuel\Desktop\Proyectos en Google Code\Brawl Texturizer\SSBBTextures\obj\x86\Release\Texturizer.OutfitImages.resources
+C:\Users\José Manuel\Desktop\Proyectos en Google Code\Brawl Texturizer\SSBBTextures\obj\x86\Release\Texturizer.OutfitNames.resources
+C:\Users\José Manuel\Desktop\Proyectos en Google Code\Brawl Texturizer\SSBBTextures\obj\x86\Release\Texturizer.CharImages.resources
+C:\Users\José Manuel\Desktop\Proyectos en Google Code\Brawl Texturizer\SSBBTextures\obj\x86\Release\Texturizer.Main.resources
+C:\Users\José Manuel\Desktop\Proyectos en Google Code\Brawl Texturizer\SSBBTextures\obj\x86\Release\Texturizer.CharNames.resources
+C:\Users\José Manuel\Desktop\Proyectos en Google Code\Brawl Texturizer\SSBBTextures\obj\x86\Release\Texturizer.Properties.Resources.resources
+C:\Users\José Manuel\Desktop\Proyectos en Google Code\Brawl Texturizer\SSBBTextures\obj\x86\Release\Texturizer.TextureEdit.resources
+C:\Users\José Manuel\Desktop\Proyectos en Google Code\Brawl Texturizer\SSBBTextures\obj\x86\Release\Texturizer.AboutBox.resources
+C:\Users\José Manuel\Desktop\Proyectos en Google Code\Brawl Texturizer\SSBBTextures\obj\x86\Release\Texturizer.SDCardSelector.resources
+C:\Users\José Manuel\Desktop\Proyectos en Google Code\Brawl Texturizer\SSBBTextures\obj\x86\Release\Texturizer.CharNames.en.resources
+C:\Users\José Manuel\Desktop\Proyectos en Google Code\Brawl Texturizer\SSBBTextures\obj\x86\Release\Texturizer.ExportPortraits.en.resources
+C:\Users\José Manuel\Desktop\Proyectos en Google Code\Brawl Texturizer\SSBBTextures\obj\x86\Release\Texturizer.Main.en.resources
+C:\Users\José Manuel\Desktop\Proyectos en Google Code\Brawl Texturizer\SSBBTextures\obj\x86\Release\Texturizer.OutfitNames.en.resources
+C:\Users\José Manuel\Desktop\Proyectos en Google Code\Brawl Texturizer\SSBBTextures\obj\x86\Release\Texturizer.Properties.Resources.en.resources
+C:\Users\José Manuel\Desktop\Proyectos en Google Code\Brawl Texturizer\SSBBTextures\obj\x86\Release\Texturizer.TextureEdit.en.resources
+C:\Users\José Manuel\Desktop\Proyectos en Google Code\Brawl Texturizer\SSBBTextures\obj\x86\Release\Texturizer.SDCardSelector.en.resources
+C:\Users\José Manuel\Desktop\Proyectos en Google Code\Brawl Texturizer\SSBBTextures\obj\x86\Release\en\Brawl Texturizer.resources.dll

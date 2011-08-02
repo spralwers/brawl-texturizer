@@ -1,0 +1,25 @@
+G:\Proyectos Visual Studio\Carpeta de trabajo de VS\Projects\Brawl Texturizer\SSBBTextures\bin\x86\Debug\Brawl Texturizer.exe.config
+G:\Proyectos Visual Studio\Carpeta de trabajo de VS\Projects\Brawl Texturizer\SSBBTextures\obj\x86\Debug\ResolveAssemblyReference.cache
+G:\Proyectos Visual Studio\Carpeta de trabajo de VS\Projects\Brawl Texturizer\SSBBTextures\obj\x86\Debug\SSBBTextures.OutfitNames.resources
+G:\Proyectos Visual Studio\Carpeta de trabajo de VS\Projects\Brawl Texturizer\SSBBTextures\obj\x86\Debug\SSBBTextures.CharImages.resources
+G:\Proyectos Visual Studio\Carpeta de trabajo de VS\Projects\Brawl Texturizer\SSBBTextures\obj\x86\Debug\SSBBTextures.Main.resources
+G:\Proyectos Visual Studio\Carpeta de trabajo de VS\Projects\Brawl Texturizer\SSBBTextures\obj\x86\Debug\SSBBTextures.CharNames.resources
+G:\Proyectos Visual Studio\Carpeta de trabajo de VS\Projects\Brawl Texturizer\SSBBTextures\obj\x86\Debug\SSBBTextures.Properties.Resources.resources
+G:\Proyectos Visual Studio\Carpeta de trabajo de VS\Projects\Brawl Texturizer\SSBBTextures\obj\x86\Debug\SSBBTextures.TextureEdit.resources
+G:\Proyectos Visual Studio\Carpeta de trabajo de VS\Projects\Brawl Texturizer\SSBBTextures\obj\x86\Debug\SSBBTextures.AboutBox.resources
+G:\Proyectos Visual Studio\Carpeta de trabajo de VS\Projects\Brawl Texturizer\SSBBTextures\obj\x86\Debug\SSBBTextures.CharNames.en.resources
+G:\Proyectos Visual Studio\Carpeta de trabajo de VS\Projects\Brawl Texturizer\SSBBTextures\obj\x86\Debug\SSBBTextures.OutfitNames.en.resources
+G:\Proyectos Visual Studio\Carpeta de trabajo de VS\Projects\Brawl Texturizer\SSBBTextures\obj\x86\Debug\SSBBTextures.Main.en.resources
+G:\Proyectos Visual Studio\Carpeta de trabajo de VS\Projects\Brawl Texturizer\SSBBTextures\obj\x86\Debug\SSBBTextures.Properties.Resources.en.resources
+G:\Proyectos Visual Studio\Carpeta de trabajo de VS\Projects\Brawl Texturizer\SSBBTextures\obj\x86\Debug\SSBBTextures.TextureEdit.en.resources
+G:\Proyectos Visual Studio\Carpeta de trabajo de VS\Projects\Brawl Texturizer\SSBBTextures\obj\x86\Debug\SSBBTextures.csproj.GenerateResource.Cache
+G:\Proyectos Visual Studio\Carpeta de trabajo de VS\Projects\Brawl Texturizer\SSBBTextures\bin\x86\Debug\FreeImage.dll
+G:\Proyectos Visual Studio\Carpeta de trabajo de VS\Projects\Brawl Texturizer\SSBBTextures\bin\x86\Debug\lz77ex.exe
+G:\Proyectos Visual Studio\Carpeta de trabajo de VS\Projects\Brawl Texturizer\SSBBTextures\bin\x86\Debug\Brawl Texturizer.exe
+G:\Proyectos Visual Studio\Carpeta de trabajo de VS\Projects\Brawl Texturizer\SSBBTextures\bin\x86\Debug\Brawl Texturizer.pdb
+G:\Proyectos Visual Studio\Carpeta de trabajo de VS\Projects\Brawl Texturizer\SSBBTextures\bin\x86\Debug\en\Brawl Texturizer.resources.dll
+G:\Proyectos Visual Studio\Carpeta de trabajo de VS\Projects\Brawl Texturizer\SSBBTextures\bin\x86\Debug\BrawlLib.dll
+G:\Proyectos Visual Studio\Carpeta de trabajo de VS\Projects\Brawl Texturizer\SSBBTextures\bin\x86\Debug\FreeImageNET.dll
+G:\Proyectos Visual Studio\Carpeta de trabajo de VS\Projects\Brawl Texturizer\SSBBTextures\obj\x86\Debug\en\Brawl Texturizer.resources.dll
+G:\Proyectos Visual Studio\Carpeta de trabajo de VS\Projects\Brawl Texturizer\SSBBTextures\obj\x86\Debug\Brawl Texturizer.exe
+G:\Proyectos Visual Studio\Carpeta de trabajo de VS\Projects\Brawl Texturizer\SSBBTextures\obj\x86\Debug\Brawl Texturizer.pdb
