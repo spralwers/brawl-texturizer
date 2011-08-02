@@ -1,0 +1,687 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{79B57AFC-1F06-4D0B-916F-AEB46CC1B2DB}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Texturizer</RootNamespace>
+    <AssemblyName>Brawl Texturizer</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ApplicationIcon>SSBB Textures.ico</ApplicationIcon>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <LangVersion>default</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <LangVersion>default</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <LangVersion>default</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <LangVersion>default</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BrawlLib, Version=0.4.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\BrawlLib\BrawlLib.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutBox.Designer.cs">
+      <DependentUpon>AboutBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Character.cs" />
+    <Compile Include="CharNames.en.Designer.cs">
+      <DependentUpon>CharNames.en.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="CharacterProvider.cs" />
+    <Compile Include="ExportPortraits.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExportPortraits.Designer.cs">
+      <DependentUpon>ExportPortraits.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MassiveDataManager.cs" />
+    <Compile Include="OutfitImages.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>OutfitImages.resx</DependentUpon>
+    </Compile>
+    <Compile Include="OutfitNames.en.Designer.cs">
+      <DependentUpon>OutfitNames.en.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="OutfitNames.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>OutfitNames.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.en.Designer.cs">
+      <DependentUpon>Resources.en.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="SDCardSelector.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SDCardSelector.Designer.cs">
+      <DependentUpon>SDCardSelector.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VisualsManager.cs" />
+    <Compile Include="CharImages.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CharImages.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Outfit.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="CharNames.en.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>CharNames.en.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExportPortraits.en.resx">
+      <DependentUpon>ExportPortraits.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExportPortraits.resx">
+      <DependentUpon>ExportPortraits.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main.en.resx">
+      <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OutfitImages.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>OutfitImages.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OutfitNames.en.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>OutfitNames.en.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OutfitNames.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>OutfitNames.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CharImages.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>CharImages.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CharNames.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>CharNames.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.en.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.en.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="CharNames.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>CharNames.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="TextureEdit.en.resx">
+      <DependentUpon>TextureEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TextureEdit.resx">
+      <DependentUpon>TextureEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <DependentUpon>Resources.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Texture.cs" />
+    <Compile Include="TextureEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TextureEdit.Designer.cs">
+      <DependentUpon>TextureEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TextureInfo.cs" />
+    <Compile Include="Util.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CharacterPictures\Captain.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CharacterPictures\Dedede.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CharacterPictures\Diddy.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CharacterPictures\Donkey.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CharacterPictures\Falco.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CharacterPictures\Fox.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CharacterPictures\GameWatch.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CharacterPictures\Ganon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CharacterPictures\Zelda.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CharacterPictures\GKoopa.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CharacterPictures\Ike.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CharacterPictures\Kirby.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CharacterPictures\Koopa.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CharacterPictures\Link.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CharacterPictures\Lucario.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CharacterPictures\Lucas.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CharacterPictures\Luigi.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CharacterPictures\Mario.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CharacterPictures\MetaKnight.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CharacterPictures\Nana.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CharacterPictures\Ness.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CharacterPictures\Peach.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CharacterPictures\Pikachu.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CharacterPictures\Pikmin.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CharacterPictures\Pit.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CharacterPictures\PokeFushigisou.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CharacterPictures\PokeLizardon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CharacterPictures\PokeZenigame.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CharacterPictures\Popo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CharacterPictures\Purin.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CharacterPictures\Samus.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CharacterPictures\Sheik.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CharacterPictures\Snake.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CharacterPictures\Sonic.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CharacterPictures\SZeroSuit.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CharacterPictures\ToonLink.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CharacterPictures\Wario.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CharacterPictures\WarioMan.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CharacterPictures\Wolf.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CharacterPictures\Yoshi.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CharacterPictures\Robot.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Agt Stop icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CharacterPictures\PokeTrainer.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="CharacterOutfits\Captain0.png" />
+    <Content Include="CharacterOutfits\Captain1.png" />
+    <Content Include="CharacterOutfits\Captain2.png" />
+    <Content Include="CharacterOutfits\Captain3.png" />
+    <Content Include="CharacterOutfits\Captain4.png" />
+    <Content Include="CharacterOutfits\Captain5.png" />
+    <Content Include="CharacterOutfits\Charizard.png" />
+    <Content Include="CharacterOutfits\Dedede0.png" />
+    <Content Include="CharacterOutfits\Dedede1.png" />
+    <Content Include="CharacterOutfits\Dedede2.png" />
+    <Content Include="CharacterOutfits\Dedede3.png" />
+    <Content Include="CharacterOutfits\Dedede4.png" />
+    <Content Include="CharacterOutfits\Dedede5.png" />
+    <Content Include="CharacterOutfits\Diddy0.png" />
+    <Content Include="CharacterOutfits\Diddy1.png" />
+    <Content Include="CharacterOutfits\Diddy2.png" />
+    <Content Include="CharacterOutfits\Diddy3.png" />
+    <Content Include="CharacterOutfits\Diddy4.png" />
+    <Content Include="CharacterOutfits\Diddy5.png" />
+    <Content Include="CharacterOutfits\Donkey0.png" />
+    <Content Include="CharacterOutfits\Donkey1.png" />
+    <Content Include="CharacterOutfits\Donkey2.png" />
+    <Content Include="CharacterOutfits\Donkey3.png" />
+    <Content Include="CharacterOutfits\Donkey4.png" />
+    <Content Include="CharacterOutfits\Donkey5.png" />
+    <Content Include="CharacterOutfits\Falco0.png" />
+    <Content Include="CharacterOutfits\Falco1.png" />
+    <Content Include="CharacterOutfits\Falco2.png" />
+    <Content Include="CharacterOutfits\Falco3.png" />
+    <Content Include="CharacterOutfits\Falco4.png" />
+    <Content Include="CharacterOutfits\Falco5.png" />
+    <Content Include="CharacterOutfits\Fox0.png" />
+    <Content Include="CharacterOutfits\Fox1.png" />
+    <Content Include="CharacterOutfits\Fox2.png" />
+    <Content Include="CharacterOutfits\Fox3.png" />
+    <Content Include="CharacterOutfits\Fox4.png" />
+    <Content Include="CharacterOutfits\Fox5.png" />
+    <Content Include="CharacterOutfits\GameWatch0.png" />
+    <Content Include="CharacterOutfits\GameWatch1.png" />
+    <Content Include="CharacterOutfits\GameWatch2.png" />
+    <Content Include="CharacterOutfits\GameWatch3.png" />
+    <Content Include="CharacterOutfits\GameWatch4.png" />
+    <Content Include="CharacterOutfits\GameWatch5.png" />
+    <Content Include="CharacterOutfits\Ganon0.png" />
+    <Content Include="CharacterOutfits\Ganon1.png" />
+    <Content Include="CharacterOutfits\Ganon2.png" />
+    <Content Include="CharacterOutfits\Ganon3.png" />
+    <Content Include="CharacterOutfits\Ganon4.png" />
+    <Content Include="CharacterOutfits\Ganon5.png" />
+    <Content Include="CharacterOutfits\Ike0.png" />
+    <Content Include="CharacterOutfits\Ike1.png" />
+    <Content Include="CharacterOutfits\Ike2.png" />
+    <Content Include="CharacterOutfits\Ike3.png" />
+    <Content Include="CharacterOutfits\Ike4.png" />
+    <Content Include="CharacterOutfits\Ike5.png" />
+    <Content Include="CharacterOutfits\Ivysaur.png" />
+    <Content Include="CharacterOutfits\Kirby0.png" />
+    <Content Include="CharacterOutfits\Kirby1.png" />
+    <Content Include="CharacterOutfits\Kirby2.png" />
+    <Content Include="CharacterOutfits\Kirby3.png" />
+    <Content Include="CharacterOutfits\Kirby4.png" />
+    <Content Include="CharacterOutfits\Kirby5.png" />
+    <Content Include="CharacterOutfits\Koopa0.png" />
+    <Content Include="CharacterOutfits\Koopa1.png" />
+    <Content Include="CharacterOutfits\Koopa2.png" />
+    <Content Include="CharacterOutfits\Koopa3.png" />
+    <Content Include="CharacterOutfits\Koopa4.png" />
+    <Content Include="CharacterOutfits\Koopa5.png" />
+    <Content Include="CharacterOutfits\Link0.png" />
+    <Content Include="CharacterOutfits\Link1.png" />
+    <Content Include="CharacterOutfits\Link2.png" />
+    <Content Include="CharacterOutfits\Link3.png" />
+    <Content Include="CharacterOutfits\Link4.png" />
+    <Content Include="CharacterOutfits\Link5.png" />
+    <Content Include="CharacterOutfits\Lucario0.png" />
+    <Content Include="CharacterOutfits\Lucario1.png" />
+    <Content Include="CharacterOutfits\Lucario2.png" />
+    <Content Include="CharacterOutfits\Lucario3.png" />
+    <Content Include="CharacterOutfits\Lucario4.png" />
+    <Content Include="CharacterOutfits\Lucas0.png" />
+    <Content Include="CharacterOutfits\Lucas1.png" />
+    <Content Include="CharacterOutfits\Lucas2.png" />
+    <Content Include="CharacterOutfits\Lucas3.png" />
+    <Content Include="CharacterOutfits\Lucas4.png" />
+    <Content Include="CharacterOutfits\Lucas5.png" />
+    <Content Include="CharacterOutfits\Luigi0.png" />
+    <Content Include="CharacterOutfits\Luigi1.png" />
+    <Content Include="CharacterOutfits\Luigi2.png" />
+    <Content Include="CharacterOutfits\Luigi3.png" />
+    <Content Include="CharacterOutfits\Luigi4.png" />
+    <Content Include="CharacterOutfits\Luigi5.png" />
+    <Content Include="CharacterOutfits\Mario0.png" />
+    <Content Include="CharacterOutfits\Mario1.png" />
+    <Content Include="CharacterOutfits\Mario2.png" />
+    <Content Include="CharacterOutfits\Mario3.png" />
+    <Content Include="CharacterOutfits\Mario4.png" />
+    <Content Include="CharacterOutfits\Mario5.png" />
+    <Content Include="CharacterOutfits\Marth0.png" />
+    <Content Include="CharacterOutfits\Marth1.png" />
+    <Content Include="CharacterOutfits\Marth2.png" />
+    <Content Include="CharacterOutfits\Marth3.png" />
+    <Content Include="CharacterOutfits\Marth4.png" />
+    <Content Include="CharacterOutfits\Marth5.png" />
+    <Content Include="CharacterOutfits\MetaKnight0.png" />
+    <Content Include="CharacterOutfits\MetaKnight1.png" />
+    <Content Include="CharacterOutfits\MetaKnight2.png" />
+    <Content Include="CharacterOutfits\MetaKnight3.png" />
+    <Content Include="CharacterOutfits\MetaKnight4.png" />
+    <Content Include="CharacterOutfits\MetaKnight5.png" />
+    <Content Include="CharacterOutfits\Ness0.png" />
+    <Content Include="CharacterOutfits\Ness1.png" />
+    <Content Include="CharacterOutfits\Ness2.png" />
+    <Content Include="CharacterOutfits\Ness3.png" />
+    <Content Include="CharacterOutfits\Ness4.png" />
+    <Content Include="CharacterOutfits\Ness5.png" />
+    <Content Include="CharacterOutfits\Peach0.png" />
+    <Content Include="CharacterOutfits\Peach1.png" />
+    <Content Include="CharacterOutfits\Peach2.png" />
+    <Content Include="CharacterOutfits\Peach3.png" />
+    <Content Include="CharacterOutfits\Peach4.png" />
+    <Content Include="CharacterOutfits\Peach5.png" />
+    <Content Include="CharacterOutfits\Pikachu0.png" />
+    <Content Include="CharacterOutfits\Pikachu1.png" />
+    <Content Include="CharacterOutfits\Pikachu2.png" />
+    <Content Include="CharacterOutfits\Pikachu3.png" />
+    <Content Include="CharacterOutfits\Pikmin0.png" />
+    <Content Include="CharacterOutfits\Pikmin1.png" />
+    <Content Include="CharacterOutfits\Pikmin2.png" />
+    <Content Include="CharacterOutfits\Pikmin3.png" />
+    <Content Include="CharacterOutfits\Pikmin4.png" />
+    <Content Include="CharacterOutfits\Pikmin5.png" />
+    <Content Include="CharacterOutfits\Pit0.png" />
+    <Content Include="CharacterOutfits\Pit1.png" />
+    <Content Include="CharacterOutfits\Pit2.png" />
+    <Content Include="CharacterOutfits\Pit3.png" />
+    <Content Include="CharacterOutfits\Pit4.png" />
+    <Content Include="CharacterOutfits\Pit5.png" />
+    <Content Include="CharacterOutfits\PokeFushigisou0.png" />
+    <Content Include="CharacterOutfits\PokeFushigisou1.png" />
+    <Content Include="CharacterOutfits\PokeFushigisou2.png" />
+    <Content Include="CharacterOutfits\PokeFushigisou3.png" />
+    <Content Include="CharacterOutfits\PokeFushigisou4.png" />
+    <Content Include="CharacterOutfits\PokeLizardon0.png" />
+    <Content Include="CharacterOutfits\PokeLizardon1.png" />
+    <Content Include="CharacterOutfits\PokeLizardon2.png" />
+    <Content Include="CharacterOutfits\PokeLizardon3.png" />
+    <Content Include="CharacterOutfits\PokeLizardon4.png" />
+    <Content Include="CharacterOutfits\PokeTrainer0.png" />
+    <Content Include="CharacterOutfits\PokeTrainer1.png" />
+    <Content Include="CharacterOutfits\PokeTrainer2.png" />
+    <Content Include="CharacterOutfits\PokeTrainer3.png" />
+    <Content Include="CharacterOutfits\PokeTrainer4.png" />
+    <Content Include="CharacterOutfits\PokeZenigame0.png" />
+    <Content Include="CharacterOutfits\PokeZenigame1.png" />
+    <Content Include="CharacterOutfits\PokeZenigame2.png" />
+    <Content Include="CharacterOutfits\PokeZenigame3.png" />
+    <Content Include="CharacterOutfits\PokeZenigame4.png" />
+    <Content Include="CharacterOutfits\Popo0.png" />
+    <Content Include="CharacterOutfits\Popo1.png" />
+    <Content Include="CharacterOutfits\Popo2.png" />
+    <Content Include="CharacterOutfits\Popo3.png" />
+    <Content Include="CharacterOutfits\Popo4.png" />
+    <Content Include="CharacterOutfits\Popo5.png" />
+    <Content Include="CharacterOutfits\Purin0.png" />
+    <Content Include="CharacterOutfits\Purin1.png" />
+    <Content Include="CharacterOutfits\Purin2.png" />
+    <Content Include="CharacterOutfits\Purin3.png" />
+    <Content Include="CharacterOutfits\Purin4.png" />
+    <Content Include="CharacterOutfits\Robot0.png" />
+    <Content Include="CharacterOutfits\Robot1.png" />
+    <Content Include="CharacterOutfits\Robot2.png" />
+    <Content Include="CharacterOutfits\Robot3.png" />
+    <Content Include="CharacterOutfits\Robot4.png" />
+    <Content Include="CharacterOutfits\Robot5.png" />
+    <Content Include="CharacterOutfits\Samus0.png" />
+    <Content Include="CharacterOutfits\Samus1.png" />
+    <Content Include="CharacterOutfits\Samus2.png" />
+    <Content Include="CharacterOutfits\Samus3.png" />
+    <Content Include="CharacterOutfits\Samus4.png" />
+    <Content Include="CharacterOutfits\Samus5.png" />
+    <Content Include="CharacterOutfits\Sheik0.png" />
+    <Content Include="CharacterOutfits\Sheik1.png" />
+    <Content Include="CharacterOutfits\Sheik2.png" />
+    <Content Include="CharacterOutfits\Sheik3.png" />
+    <Content Include="CharacterOutfits\Sheik4.png" />
+    <Content Include="CharacterOutfits\Sheik5.png" />
+    <Content Include="CharacterOutfits\Snake0.png" />
+    <Content Include="CharacterOutfits\Snake1.png" />
+    <Content Include="CharacterOutfits\Snake2.png" />
+    <Content Include="CharacterOutfits\Snake3.png" />
+    <Content Include="CharacterOutfits\Snake4.png" />
+    <Content Include="CharacterOutfits\Snake5.png" />
+    <Content Include="CharacterOutfits\Sonic0.png" />
+    <Content Include="CharacterOutfits\Sonic1.png" />
+    <Content Include="CharacterOutfits\Sonic2.png" />
+    <Content Include="CharacterOutfits\Sonic3.png" />
+    <Content Include="CharacterOutfits\Sonic4.png" />
+    <Content Include="CharacterOutfits\Squirtle.png" />
+    <Content Include="CharacterOutfits\SZeroSuit0.png" />
+    <Content Include="CharacterOutfits\SZeroSuit1.png" />
+    <Content Include="CharacterOutfits\SZeroSuit2.png" />
+    <Content Include="CharacterOutfits\SZeroSuit3.png" />
+    <Content Include="CharacterOutfits\SZeroSuit4.png" />
+    <Content Include="CharacterOutfits\SZeroSuit5.png" />
+    <Content Include="CharacterOutfits\ToonLink0.png" />
+    <Content Include="CharacterOutfits\ToonLink1.png" />
+    <Content Include="CharacterOutfits\ToonLink2.png" />
+    <Content Include="CharacterOutfits\ToonLink3.png" />
+    <Content Include="CharacterOutfits\ToonLink4.png" />
+    <Content Include="CharacterOutfits\ToonLink5.png" />
+    <Content Include="CharacterOutfits\Unknown0.png" />
+    <Content Include="CharacterOutfits\Unknown1.png" />
+    <Content Include="CharacterOutfits\Unknown2.png" />
+    <Content Include="CharacterOutfits\Unknown3.png" />
+    <Content Include="CharacterOutfits\Unknown4.png" />
+    <Content Include="CharacterOutfits\Unknown5.png" />
+    <Content Include="CharacterOutfits\Wario0.png" />
+    <Content Include="CharacterOutfits\Wario1.png" />
+    <Content Include="CharacterOutfits\Wario10.png" />
+    <Content Include="CharacterOutfits\Wario11.png" />
+    <Content Include="CharacterOutfits\Wario2.png" />
+    <Content Include="CharacterOutfits\Wario3.png" />
+    <Content Include="CharacterOutfits\Wario4.png" />
+    <Content Include="CharacterOutfits\Wario5.png" />
+    <Content Include="CharacterOutfits\Wario6.png" />
+    <Content Include="CharacterOutfits\Wario7.png" />
+    <Content Include="CharacterOutfits\Wario8.png" />
+    <Content Include="CharacterOutfits\Wario9.png" />
+    <Content Include="CharacterOutfits\Wolf0.png" />
+    <Content Include="CharacterOutfits\Wolf1.png" />
+    <Content Include="CharacterOutfits\Wolf2.png" />
+    <Content Include="CharacterOutfits\Wolf3.png" />
+    <Content Include="CharacterOutfits\Wolf4.png" />
+    <Content Include="CharacterOutfits\Wolf5.png" />
+    <Content Include="CharacterOutfits\Yoshi0.png" />
+    <Content Include="CharacterOutfits\Yoshi1.png" />
+    <Content Include="CharacterOutfits\Yoshi2.png" />
+    <Content Include="CharacterOutfits\Yoshi3.png" />
+    <Content Include="CharacterOutfits\Yoshi4.png" />
+    <Content Include="CharacterOutfits\Yoshi5.png" />
+    <Content Include="CharacterOutfits\Zelda0.png" />
+    <Content Include="CharacterOutfits\Zelda1.png" />
+    <Content Include="CharacterOutfits\Zelda2.png" />
+    <Content Include="CharacterOutfits\Zelda3.png" />
+    <Content Include="CharacterOutfits\Zelda4.png" />
+    <Content Include="CharacterOutfits\Zelda5.png" />
+    <Content Include="CharacterPictures\Marth.jpg" />
+    <Content Include="Resources\Outfit.png" />
+    <Content Include="Resources\PanelJMNAzul.png" />
+    <Content Include="SSBB Textures.ico" />
+    <EmbeddedResource Include="AboutBox.resx">
+      <DependentUpon>AboutBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SDCardSelector.en.resx">
+      <DependentUpon>SDCardSelector.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SDCardSelector.resx">
+      <DependentUpon>SDCardSelector.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SSBBT.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
