@@ -1,0 +1,281 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="About" xml:space="preserve">
+    <value>Acerca de</value>
+  </data>
+  <data name="AppName" xml:space="preserve">
+    <value>Texturizer para Super Smash Bros. Brawl.</value>
+  </data>
+  <data name="Associate" xml:space="preserve">
+    <value>Asociar</value>
+  </data>
+  <data name="AssociatingPacData" xml:space="preserve">
+    <value>Asociando datos PAC</value>
+  </data>
+  <data name="AssociatingPcsData" xml:space="preserve">
+    <value>Asociando datos PCS</value>
+  </data>
+  <data name="AutoAssignPortrait" xml:space="preserve">
+    <value>Buscar automáticamente el retrato correspondiente a la textura seleccionada.
+Si existe una imagen cuyo nombre es coincidente con el de la textura indicada, se cargará automáticamente como imagen de retrato.</value>
+  </data>
+  <data name="BitmapSizeNotValid" xml:space="preserve">
+    <value>El tamaño de la imagen no es válido. Debe ser de 128x160 píxeles.</value>
+  </data>
+  <data name="Common5Required" xml:space="preserve">
+    <value>Para que los retratos de la pantalla de selección de personaje se exporten es necesario seleccionar una copia válida de common5.pac (common5_en.pac) de Super Smash Bros. Brawl. Por favor, indica la ruta a continuación</value>
+  </data>
+  <data name="DefaultOutfitName" xml:space="preserve">
+    <value>Traje {0}</value>
+  </data>
+  <data name="Detected" xml:space="preserve">
+    <value>(Detectado)</value>
+  </data>
+  <data name="ErrorAsigningTexture" xml:space="preserve">
+    <value>Error al asignar la textura: {0}</value>
+  </data>
+  <data name="ErrorExporting" xml:space="preserve">
+    <value>Error al exportar la estructura de directorios</value>
+  </data>
+  <data name="ErrorGeneratingPacData" xml:space="preserve">
+    <value>ATENCIÓN: {0} necesita que sus texturas PCS vengan acompañadas de su correspondiente archivo .PAC, pero éste no ha sido encontrado y ha ocurrido un error al intentar generarlo automáticamente.
+
+Asegúrate de que existe un archivo llamado {1} en la misma carpeta donde se encuentra {2}. De otro modo, es muy probable que el juego se congele durante la partida. No obstante, la información PCS se ha añadido correctamente.</value>
+  </data>
+  <data name="ErrorImporting" xml:space="preserve">
+    <value>Error al importar la estructura de directorios. Por favor, verifica que la estructura que estás importando es válida.</value>
+  </data>
+  <data name="ErrorLoadingSssbtFile" xml:space="preserve">
+    <value>Error al cargar el archivo. Comprueba que el formato sea válido (SSBBT binario)</value>
+  </data>
+  <data name="ErrorNotValidSsbbtFile" xml:space="preserve">
+    <value>Error al cargar el archivo. No se trata de un archivo SSBBT.</value>
+  </data>
+  <data name="ErrorOpening" xml:space="preserve">
+    <value>Error al abrir el archivo de texturas</value>
+  </data>
+  <data name="ErrorSaving" xml:space="preserve">
+    <value>Error al guardar el archivo de texturas</value>
+  </data>
+  <data name="ErrorWritingTextureData" xml:space="preserve">
+    <value>No se pueden escribir los datos de la textura para {0}.
+
+Por favor, verifica que tienes permisos suficientes para escribir en la carpeta de exportación y que los archivos no estén en uso.
+
+¿Reintentar escribir los datos de esta textura?</value>
+  </data>
+  <data name="ErrorWritingTextureDataTitle" xml:space="preserve">
+    <value>Error al escribir datos de textura</value>
+  </data>
+  <data name="ExceptionDetails" xml:space="preserve">
+    <value>Detalles de la excepción</value>
+  </data>
+  <data name="ExportDescription" xml:space="preserve">
+    <value>Por favor, selecciona la carpeta "pf" de tu tarjeta SD</value>
+  </data>
+  <data name="ExportedSuccessfully" xml:space="preserve">
+    <value>Exportación realizada con éxito a la carpeta {0}</value>
+  </data>
+  <data name="Exporting" xml:space="preserve">
+    <value>Exportando</value>
+  </data>
+  <data name="FileLoaded" xml:space="preserve">
+    <value>Archivo de texturas cargado correctamente</value>
+  </data>
+  <data name="FileSaved" xml:space="preserve">
+    <value>Archivo de texturas guardado correctamente</value>
+  </data>
+  <data name="GeneratingPacData" xml:space="preserve">
+    <value>Generando datos PAC. Por favor, espera...</value>
+  </data>
+  <data name="ImportDescription" xml:space="preserve">
+    <value>Por favor, selecciona la carpeta "pf" de tu tarjeta SD</value>
+  </data>
+  <data name="ImportFromScratchWarning" xml:space="preserve">
+    <value>Un {0:P0} de los personajes que se han importado ha tenido que ser recreados desde cero. Esto normalmente indica que estás tratando de importar una estructura de directorios sin metadatos asociados.
+
+¿Deseas tratar de cargar información adicional desde la estructura de directorios?
+
+* Si estás empezando de cero, tal vez te interesa tratar de cargar la información adicional usando como fuente la estructura de carpetas que has indicado. Para ello, pulsa "Sí".
+
+* Si por el contrario, estás importando datos previamente exportados y sabes que son válidos, pulsa "No".</value>
+  </data>
+  <data name="Importing" xml:space="preserve">
+    <value>Importando</value>
+  </data>
+  <data name="InvalidPcsPath" xml:space="preserve">
+    <value>La ruta del archivo PCS no existe. Por favor, selecciona un archivo PCS existente.</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="NotAvailable" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Agt Stop icon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Opening" xml:space="preserve">
+    <value>Abriendo</value>
+  </data>
+  <data name="Outfit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Outfit.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PacFiles" xml:space="preserve">
+    <value>Archivos .PAC</value>
+  </data>
+  <data name="PanelJMNAzul" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PanelJMNAzul.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PcsFiles" xml:space="preserve">
+    <value>Texturas (*.pcs)</value>
+  </data>
+  <data name="PleaseWait" xml:space="preserve">
+    <value>Por favor, espera...</value>
+  </data>
+  <data name="PortraitsExportFinished" xml:space="preserve">
+    <value>Exportación de retratos finalizada con éxito</value>
+  </data>
+  <data name="PortraitsWontBeExported" xml:space="preserve">
+    <value>Los retratos de los personajes no serán exportados</value>
+  </data>
+  <data name="ReadingPacFile" xml:space="preserve">
+    <value>Leyendo archivo .PAC</value>
+  </data>
+  <data name="Saving" xml:space="preserve">
+    <value>Guardando</value>
+  </data>
+  <data name="SelectExportFolder" xml:space="preserve">
+    <value>Selecciona la carpeta "pf"</value>
+  </data>
+  <data name="SelectImportFolder" xml:space="preserve">
+    <value>Selecciona la carpeta "pf"</value>
+  </data>
+  <data name="SsbbtFiles" xml:space="preserve">
+    <value>Archivos de Texturizer (*.ssbbt)</value>
+  </data>
+  <data name="StructureLoadedSuccessfully" xml:space="preserve">
+    <value>Esctructura de directorios cargada con éxito</value>
+  </data>
+  <data name="SupportedImages" xml:space="preserve">
+    <value>Todas las imágenes soportadas</value>
+  </data>
+  <data name="Update" xml:space="preserve">
+    <value>Actualizar</value>
+  </data>
+  <data name="Version" xml:space="preserve">
+    <value>Versión</value>
+  </data>
+</root>
