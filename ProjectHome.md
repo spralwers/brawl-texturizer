@@ -1,0 +1,1 @@
+Aplicación para modificación de texturas del juego de Wii Smash Bros. Brawl. Contiene librería BrawlLib de Azazel.
